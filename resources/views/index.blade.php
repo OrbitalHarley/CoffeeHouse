@@ -41,8 +41,6 @@
         }
 
 
-
-
     </style>
    	<section class="products">
    		<div class="product-card">

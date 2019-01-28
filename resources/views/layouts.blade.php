@@ -17,8 +17,8 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                    <li class="nav-item {{ Route::current()->getName === '/' ? 'active' : null }}">
-                        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                    <li class="nav-item {{ Route::current()->getName === 'store' ? 'active' : null }}">
+                        <a class="nav-link" href="/store">Store <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item {{ Route::current()->getName === 'about' ? 'active' : null }}">
                         <a class="nav-link" href="/about">About</a>
