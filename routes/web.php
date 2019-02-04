@@ -11,26 +11,7 @@
 |
 */
 
-Route::get('/welcome', function() {
-    return view('landingPage');
-});
-
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/store', function () {
-    return view('index');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});
-
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
